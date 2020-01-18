@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   
   regular_sentence.each do |word, index|
     
-    reversed_sentence.push(word.reverse)
+    reversed_sentence.collect(word.reverse)
     
   end
 
