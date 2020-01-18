@@ -1,8 +1,8 @@
 def reverse_each_word(sentence)
-  regular_sentence = sentence.split("")
+  sentence = sentence.split("")
   reversed_sentence = []
   
-  regular_sentence.each do
+  sentence.each do
     reversed_sentence.push(regular_sentence.reverse)
   end
   
