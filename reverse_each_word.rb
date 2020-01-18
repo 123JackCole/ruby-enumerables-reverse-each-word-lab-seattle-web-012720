@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   reversed_sentence = []
   
   regular_sentence.each do
-    reversed_sentence.unshift(regular_sentence.reverse)
+    reversed_sentence.unshift(regular_sentence)
   end
   
   
