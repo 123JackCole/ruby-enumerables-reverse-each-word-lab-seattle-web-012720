@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   reversed_sentence = []
   
   string.each do ||
-  sentence.split.reverse.join(' ')  
+    sentence.split.reverse.join(' ')  
   end
   
 end
