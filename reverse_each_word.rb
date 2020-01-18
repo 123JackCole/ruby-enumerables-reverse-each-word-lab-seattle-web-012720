@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  string = 
+  string = sentence.split("")
   sentence.split.reverse.join(' ')  
 
 end
