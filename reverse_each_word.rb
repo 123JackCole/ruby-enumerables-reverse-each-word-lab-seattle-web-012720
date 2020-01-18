@@ -3,8 +3,8 @@ def reverse_each_word(sentence)
   reversed_sentence = []
   
   regular_sentence.each do |char|
-    reversed_sentence(char)
+    reversed_sentence.unshift(char)
   end
   p regular_sentence
-  p reversed_sentence.unshift.join(" ")
+  p reversed_sentence.join(" ")
 end
