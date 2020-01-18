@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   
   regular_sentence.each do |word, index|
     
-    i.reverse
+    reversed_sentence[index] = word.reverse
     
   end
   
