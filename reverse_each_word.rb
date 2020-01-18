@@ -4,5 +4,6 @@ def reverse_each_word(sentence)
   
   string.each do ||
   sentence.split.reverse.join(' ')  
-
+  end
+  
 end
