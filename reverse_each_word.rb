@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   
   regular_sentence.each do
     
-    
+    regular_sentence[].reverse
     
   end
   
